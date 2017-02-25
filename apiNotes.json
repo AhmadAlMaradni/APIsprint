@@ -1,35 +1,35 @@
 {
   "/api": {
-    "/movies": {
+    "/teacher": {
       "/": {
         "GET": {
-          "description": "get all movies",
+          "description": "get all teacher",
           "response": "200 application/json",
           "data": "[{},{}]"
         },
         "POST": {
-          "description": "create and return new movie",
+          "description": "create and return new teacher",
           "response": "201 application/json",
           "data": "{}"
         }
       },
       "/:id": {
         "GET": {
-          "description": "returns movie with that title",
+          "description": "returns teacher with that title",
           "response": "200 application/json",
           "data": "{}"
         }
       }
     },
-    "/books": {
+    "/student": {
       "/": {
         "GET": {
-          "description": "get all books",
+          "description": "get all student",
           "response": "200 application/json",
           "data": "[{},{}]"
         },
         "POST": {
-          "description": "create and return a list of books",
+          "description": "create and return a list of student",
           "response": "201 application/json",
           "data": "[{},{}]"
         }
